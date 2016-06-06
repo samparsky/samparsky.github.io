@@ -1,0 +1,56 @@
+---
+published: true
+title: Factory Design Pattern in PHP
+layout: post
+---
+Design patterns are repeatable solutions to commonly occurring problems in software design. Sure, they're not terribly interesting (or easy to learn as a result), but they can make life a lot easier.
+
+The factory design patterns simply put returns an object. The factory design pattern is meant to help create instances of an object such that any other class that wants to reference the a class has to just refer to the factory method to get the instance of that particular class. It is most useful when working on projects with changing demands or requirements.
+
+Class Products {
+	public $title;
+	public $description;
+
+	public function __construct($title,$description){
+		$this→title = $title;
+		$this→description = $description;
+	}
+	public function buy(){
+	
+	}
+}
+
+Let's say a user wants to create a product we would do something like this;
+	class User {
+		public $product;
+		public function __construct(){	
+			
+		}
+		public function create(){
+			$this→product = new Products(“Cake”, “a beaufitul cake”);
+			$this→product→buy();
+		}
+	}
+
+And we keep instantiating the products class for a product lets say in the admin class also. When a parameter change occurs and we need to add a parameter to the constructor of the product class we would have to find every place we instantiated the products class in our code to implement the change and that would be difficult or we could create a constructor overload. But another better approach would be to create a factory that defines that products class such that when we want to instantiate the product class we just have to call the factory.
+
+	Class  ProductFactory {
+		
+		public static function create(){
+			return new Product($title, $description);
+)	
+		}
+	}
+
+So the implemenatation of the user's class would be
+
+class User {
+		public $product;
+		public function __construct(){	
+			
+		}
+		public function create(){
+			$this→product = ProductFactory::create();
+			$this→product→by();
+		}
+	}
