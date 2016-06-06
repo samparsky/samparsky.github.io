@@ -19,7 +19,7 @@ Class Products {
 	
 	}
 }
-
+```
 Let's say a user wants to create a product we would do something like this;
 ```php
 	class User {
