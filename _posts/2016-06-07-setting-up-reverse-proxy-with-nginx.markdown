@@ -19,7 +19,8 @@ To install vagrant on windows or linux or mac based systems. The instructions ca
 ##### Setting up Vagrant
 We will be creating three separate vagrant files and 
 For the Proxy Server box the following content should be stored in the vagrant file
-```ruby
+
+``` ruby
    Vagrant.configure(2) do |config|
 	config.vm.define "proxyserver" do |proxyserver|
 		proxyserver.vm.box = "ubuntu/trusty64"
