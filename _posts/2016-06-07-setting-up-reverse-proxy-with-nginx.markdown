@@ -2,6 +2,8 @@
 published: false
 title: Setting up Reverse Proxy with NGINX
 layout: post
+tags: [Nginx, Vagrant, ReverseProxy, ]
+categories: [Nginx, Vagrant]
 ---
 ##### What is a Reverse Proxy?
 
@@ -17,15 +19,15 @@ To install vagrant on windows or linux or mac based systems. The instructions ca
 ##### Setting up Vagrant
 We will be creating three separate vagrant files and 
 For the Proxy Server box the following content should be stored in the vagrant file
-``` ruby
-Vagrant.configure(2) do |config|
+```ruby
+   Vagrant.configure(2) do |config|
 	config.vm.define "proxyserver" do |proxyserver|
 		proxyserver.vm.box = "ubuntu/trusty64"
 		proxyserver.vm.hostname = "proxyserver"
 		proxyserver.vm.network "private_network", ip:"192.168.33.20"
 		proxyserver.vm.network "forwarded_port",guest: 80,   host: 4000
 	end
-end
+   end
 ```
 For the other two vagrant boxes will be just be making a few changes to the Vagrantfile we have above.
 We will be changing the ip address and port number to avoid collision.
