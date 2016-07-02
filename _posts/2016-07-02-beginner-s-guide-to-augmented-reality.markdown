@@ -5,7 +5,7 @@ layout: post
 ---
 ### What is Augmented Reality
 
-<div style="max-width: 500px;" id="_giphy_2m5hGgfE1Tf2M"></div><script>var _giphy = _giphy || []; _giphy.push({id: "2m5hGgfE1Tf2M",w: 500, h: 213, clickthrough_url: "http://giphy.com/gifs/ellen-page-maths-i-dont-understand-2m5hGgfE1Tf2M"});var g = document.createElement("script"); g.type = "text/javascript"; g.async = true;g.src = ("https:" == document.location.protocol ? "https://" : "http://") + "giphy.com/static/js/widgets/embed.js";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(g, s);</script>
+<div style="max-width: 500px; display:block; " id="_giphy_2m5hGgfE1Tf2M"></div><script>var _giphy = _giphy || []; _giphy.push({id: "2m5hGgfE1Tf2M",w: 500, h: 213, clickthrough_url: "http://giphy.com/gifs/ellen-page-maths-i-dont-understand-2m5hGgfE1Tf2M"});var g = document.createElement("script"); g.type = "text/javascript"; g.async = true;g.src = ("https:" == document.location.protocol ? "https://" : "http://") + "giphy.com/static/js/widgets/embed.js";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(g, s);</script>
 
 
 “ Augmented reality (AR) is a live direct or indirect view of a physical, real-world environment whose elements are augmented (or supplemented) by computer-generated sensory input such as sound, video, graphics or GPS data. It is related to a more general concept called mediated reality, in which a view of reality is modified (possibly even diminished rather than augmented) by a computer “ - Wikipedia
