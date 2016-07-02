@@ -44,5 +44,3 @@ Artoolkit
 FlarArtoolkit – For rendering flash based augmented 
 
 I will be creating a basic tutorial on how to render a flash based interactive augmented application on Android phones. WATCH OUT
-
-
