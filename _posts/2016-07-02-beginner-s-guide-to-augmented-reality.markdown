@@ -7,15 +7,17 @@ layout: post
 
 <div style="max-width: 500px; display:block; " id="_giphy_2m5hGgfE1Tf2M"></div><script>var _giphy = _giphy || []; _giphy.push({id: "2m5hGgfE1Tf2M",w: 500, h: 213, clickthrough_url: "http://giphy.com/gifs/ellen-page-maths-i-dont-understand-2m5hGgfE1Tf2M"});var g = document.createElement("script"); g.type = "text/javascript"; g.async = true;g.src = ("https:" == document.location.protocol ? "https://" : "http://") + "giphy.com/static/js/widgets/embed.js";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(g, s);</script>
 
-
+<div style="margin-top:50px">
 “ Augmented reality (AR) is a live direct or indirect view of a physical, real-world environment whose elements are augmented (or supplemented) by computer-generated sensory input such as sound, video, graphics or GPS data. It is related to a more general concept called mediated reality, in which a view of reality is modified (possibly even diminished rather than augmented) by a computer “ - Wikipedia
 
 When most people hear buzz words such as “Augmented Reality” , “Virtual Reality” , they begin to wonder what they really means. However, when we hear about augmented reality these days it usually refers to a much more sophisticated, interactive and spatially aware implementation of the concept. Where digital objects such as 3D models or video are projected onto our view of reality as if they were really there.
+</div>
 
 ### How Does Augmented Reality Work?
 
 <div style="max-width: 500px;" id="_giphy_xThuWjk0OAZgeJwahG"></div><script> _gif_artist = "lucifer-fox"; _gif_artist_avatar = "https://media2.giphy.com/avatars/lucifer-fox/15ISOyxjBwfo.png"; var _giphy = _giphy || []; _giphy.push({id: "xThuWjk0OAZgeJwahG",w: 500, h: 281, clickthrough_url: "http://giphy.com/gifs/lucifer-fox-lucifer-fox-morningstar-xThuWjk0OAZgeJwahG"});var g = document.createElement("script"); g.type = "text/javascript"; g.async = true;g.src = ("https:" == document.location.protocol ? "https://" : "http://") + "giphy.com/static/js/widgets/embed.js";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(g, s);</script>
 
+<div style="margin-top:50px">
 The type of augmented reality you are most likely to encounter uses a range of sensors (including a camera), computer components and a display device to create the illusion of virtual objects in the real world.
 
 Thanks to the popularity of smartphones, which have all the necessary components, they have been the place most commercial augmented reality applications that have been released.
@@ -23,6 +25,7 @@ In general the device looks for a particular target. This can be anything, but u
 
 By using smart algorithms and other sensors such as accelerometers and gyroscopes the device can keep the augmented elements aligned with the image of the real world.
 Using a smartphone or tablet computer as a “magic window” into the augmented world is one way we can relay this digital info to our eyes, but there are many other ways to achieve this.
+</div>
 
 ### USE CASES OF AUGMENTED REALITY
 
