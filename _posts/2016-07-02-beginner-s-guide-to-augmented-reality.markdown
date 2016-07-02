@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Beginner's Guide to Augmented Reality
 layout: post
 ---
