@@ -4,6 +4,6 @@ markdown: kramdown
 url: http://samparsky.github.io
 title: Omidiora Samuel
 tagline: Making the world a better place
-description: Success is not final, failure is not fatal: it is the courage to continue that counts. You can contact me at samparsky@gmail.com
+description: "Success is not final, failure is not fatal: it is the courage to continue that counts. You can contact me at samparsky[at]mail.com" 
 email: samparsky@gmail.com
 paginate: 5
